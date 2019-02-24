@@ -20,6 +20,13 @@ public class Tasks {
     public  Tasks(){
 
     }
+    public  Tasks(String id,String name,Date createdAt, List tasks){
+        this.id=id;
+        this.name=name;
+        this.createdAt=createdAt;
+        this.tasks=tasks;
+
+    }
     public String getId() {
         return id;
     }
